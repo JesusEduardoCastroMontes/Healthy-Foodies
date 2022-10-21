@@ -30,7 +30,7 @@ public class dbConexion extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
 
     }
-
+//
     public boolean addOne(SETANDGETS_RECETAS setandgets_recetas){
         SQLiteDatabase db =this.getWritableDatabase();
         ContentValues cv =  new ContentValues();

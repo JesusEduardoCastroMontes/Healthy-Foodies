@@ -12,7 +12,7 @@ public class SETANDGETS_RECETAS {
     public String nombre;
     public String descripcion;
     public String preparacion;
-
+// sda
     @Override
     public String toString() {
         return "SETANDGETS_RECETAS{" +

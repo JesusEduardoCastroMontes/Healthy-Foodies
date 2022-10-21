@@ -47,7 +47,7 @@ public class CrearReceta extends AppCompatActivity {
                 Toast.makeText(CrearReceta.this,"Errror",Toast.LENGTH_LONG).show();
                 setandgets_recetas = new SETANDGETS_RECETAS(-1,"error","descrpcion","preparacion");
 
-            }
+            }//
             boolean listo = conexion.addOne(setandgets_recetas);
                 Toast.makeText(CrearReceta.this, "listo="+ listo,Toast.LENGTH_LONG).show();
             }
